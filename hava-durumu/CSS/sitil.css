@@ -1,0 +1,84 @@
+﻿body {
+    font-family: 'Segoe UI',Arial;
+    line-height: 12px;
+    background-image: url("/hava-durumu/Img/bg.jpg");
+    background-attachment: fixed;
+}
+
+.bgAlpha {
+    background-color: rgba(0,0,0, 0.5);
+    border-radius: 6px;
+}
+
+.suan {
+    font-size: 40px;
+    line-height: 40px;
+}
+
+.panel {
+    background-color: rgba(0,0,0,0.6);
+    color: #fff;
+}
+
+h1 {
+    color: #fff;
+}
+
+h2 {
+    margin-top: 0px;
+    color: #e69897;
+}
+
+.panel-default > .panel-heading {
+    background-color: rgba(0,0,0,0.4);
+    color: #fff;
+}
+
+.panel-heading label {
+    font-size: 18px;
+}
+
+#divLinkler span {
+    line-height: 18px;
+}
+
+    #divLinkler span:hover {
+        cursor: pointer;
+        text-decoration: underline;
+    }
+
+.panel-default {
+    border: none;
+}
+
+.paddingSifir {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: #fff;
+}
+
+.navbar {
+    border-radius: 0px;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
+    background-color: #3A75D7;
+}
+
+@media screen and (max-width:767px) {
+    .navbar {
+        margin-bottom: 5px;
+    }
+
+    h1 {
+        margin-top: 5px;
+        margin-bottom: 0px;
+    }
+
+    .form-group {
+        margin-bottom: 7px;
+    }
+}
